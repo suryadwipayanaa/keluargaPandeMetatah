@@ -4,8 +4,9 @@
 <meta name="viewport" content="width=device-width , initial-scale=1.0">
 <meta charset="utf-8">
 <link rel="stylesheet" href="../css/style.css">
-<title>Keluarga Pande</title>
+<title>Undangan Metatah</title>
 <link rel="icon" href="../image/logo.png">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,18 +25,18 @@
         </div>
         <div class="deskripsi">
           <div class="title">
-            <h1>Keluarga Pande Tegalinggah</h1>
-            <p>Kpd. Bpk/ibu/saudara/i <br>
+            <h1>Mepandes/Potong Gigi</h1>
+            <!-- <p><br> -->
 
             <div class="nama">
             <h5 style="font-size: 20px;">
-            <?php 
+            <!-- <?php 
                 echo $_GET['name']
-            ?> 
+            ?>  -->
             </h5>   
             </div>
                 
-            <br>Tanpa mengurangi rasa hormat, kami mengundang anda untuk hadir pada acara mepandes(potong gigi)<br>putra - putri kami</p>
+            <br>Tanpa mengurangi rasa hormat, kami mengundang saudara untuk hadir pada acara mepandes/Potong gigi<br>putra - putri kami</p>
             <a  id="open" class="btn"><i class="fa-solid fa-envelope-open-text"></i> Buka Undangan</a>
           </div>
         </div>
@@ -56,7 +57,7 @@
    <div class="navbar">
     <div class="row">
         <div class="col">
-            <div class="nav-item"><a href="#home"><i class="fa-solid fa-house-user"></i></a></div>
+            <div class="nav-item "><a href="#home"><i class="fa-solid fa-house-user "></i></a></div>
         </div>
         <div class="col">
             <div class="nav-item"><a href="#user"><i class="fa-solid fa-user"></i></a></div>
@@ -68,7 +69,7 @@
             <div class="nav-item"><a href="#komentar"><i class="fa-solid fa-pen"></i></a></div>
         </div>
         <div class="col">
-            <div class="nav-item"><a ><i class="fa-solid fa-moon"></i></a></div>
+            <div class="nav-item-moon"><a ><i class="fa-solid fa-moon"></i></a></div>
         </div>
     </div>
    </div>
@@ -87,11 +88,11 @@
             <img src="../image/borderBottom.png">
         </div>
         <div class="show"></div>
-           <div class="col">
-             <h5>Undangan Mepandes</h5>
-             <h4>Keluarga Pande Tegallinggah</h4>
-             <h5>Tegallinggah | 6 Oktober 2022</h5>
-             <i class="fa-solid fa-arrow-down"></i>
+           <div class="col"  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
+             <h5>Mepandes / Potong Gigi</h5>
+             <h4>Griya Sukunan</h4>
+             <h5>20 Oktober 2023</h5>
+             <!-- <i class="fa-solid fa-arrow-down"></i> -->
             </div>
       </div>
        <!-- benner finsihed -->
@@ -103,30 +104,35 @@
         <div class="korden">
             <img src="../image/korden.png">
         </div>
-        <div class="title">
+        <div class="title"    data-aos="fade-down"
+        data-aos-offset="200"
+         data-aos-delay="50"
+        data-aos-duration="1000"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="true">
             <h1>Om Swastyastu</h1>
             <div class="underline">
                 <img src="../image/underline.png">
             </div>
         </div>
-        <div class="deskripsi">
-            <p class="widi">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Mepandes (Potong Gigi) putra-putri kami.</p>
-            <div class="daun">
+        <div class="deskripsi ">
+            <p class="widi "  data-aos="fade-down"
+        data-aos-offset="200"
+         data-aos-delay="50"
+        data-aos-duration="2000"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="true">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Mepandes (Potong Gigi) putra-putri kami.</p>
+            <div class="daun"  data-aos="zoom-in" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
                 <img src="../image/daun2.png">
             </div>
             <div class="peopleName">
                 <ul>
-                    <li><h5>Briptu Pande Putu Mega Yusa</h5></li>
-                    <li><h5>Pande Kadek Selfia Ariana</h5></li>
-                    <li><h5>Pande Putu Rika Wijayani</h5></li>
-                    <li><h5>Pande Made Oka Sudibia, S. MIK</h5></li>
-                    <li><h5>Pande Putu Nia Andari Putri, S.E</h5></li>
-                    <li><h5>Pande Made Budi Astuti</h5></li>
-                    <li><h5>Pande Made Rama Atmaja Putra, S.M</h5></li>
-                    <li><h5>Pande Komang Renata Putri</h5></li>
+                    <li data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true"><h5>I Gusti Made Ngurah Bagus Dwika Winanda</h5></li>
+                    <li  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="70" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true"><H5>I Gusti Ngurah Dwika Pramulia</H5></li>
+                    <li  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="90" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true"><h5>Gusti Ayu Anggita Putri</h5></li>
                 </ul>
             </div>
-            <div class="timeToEvent title">
+            <div class="timeToEvent title " data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
                 <h1>Hari Bahagia</h1>
                 <div class="underline">
                     <img src="../image/underline.png">
@@ -156,8 +162,8 @@
 
        <!-- timeplace started -->
        <div class="timePlace" id="lokasi">
-        <p>Merupakan suatu kehormatan dan kebahagiaan kami apabila Bapak/Ibu/Saudara/i berkenan hadir memberikan doa restu.</p>
-        <div class="box">
+        <p  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">Merupakan suatu kehormatan dan kebahagiaan kami apabila Bapak/Ibu/Saudara/i berkenan hadir memberikan doa restu.</p>
+        <div class="box"  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
             <div class="border">
                 <img src="../image/borderTop.png">
             </div>
@@ -166,12 +172,12 @@
                 <img src="../image/underline.png">
             </div>
             <ul>
-                <li><i class="fa-solid fa-calendar"></i><span> Kamis, 06 Oktober 2022</span></li>
+                <li><i class="fa-solid fa-calendar"></i><span> Kamis, 20 Oktober 2023</span></li>
                 
                 <li><i class="fa-solid fa-clock"></i><span> 09.00 WITA - SELESAI</span></li>
 
-                <li class="map"><i class="fa-sharp fa-solid fa-map-pin"></i><span> Jalan Raya Semabaung, Br. Tegallinggah, Bedulu , Blahbatuh</span></li>
-                <a href="https://maps.app.goo.gl/ajknmoqA6oc1D8mJ9" class="btn"><i class="fa-solid fa-location-dot"></i> Map Lokasi Acara</a>
+                <li class="map"><i class="fa-sharp fa-solid fa-map-pin"></i><span>Griya Sukunan Cemagi , Mengwi , Badung</span></li>
+                <a href="https://maps.app.goo.gl/HLY4Wrq8hReSLELP7" class="btn"><i class="fa-solid fa-location-dot"></i> Map Lokasi Acara</a>
             </ul>
         </div>
        </div>
@@ -179,10 +185,10 @@
 
        <!-- protokol started -->
        <div class="protokol">
-        <div class="daun">
+        <div class="daun"  data-aos="zoom-in" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
             <img src="../image/daun2.png">
           </div>
-          <h1>Protokol Covid 19</h1>
+          <!-- <h1>Protokol Covid 19</h1>
           <div class="underline">
             <img src="../image/underline.png">
           </div>
@@ -207,14 +213,14 @@
                     </div>
             </div>
            </div>
-           <strong>Mari Kita Lindungi Kesehatan Bersama</strong>
+           <strong>Mari Kita Lindungi Kesehatan Bersama</strong> -->
         
            <!-- quot started -->
            <div class="quot">
-            <div class="quotLeaf">
+            <div class="quotLeaf" >
                 <img src="../image/daun2.png">
             </div>
-            <div class="deskripsi">
+            <div class="deskripsi"  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
                 <p><i class="fa-solid fa-quote-left"></i> Om Hyang Widhi Wasa, semoga hamba mendapat perkenanMu, untuk melalui tahapan hidup ini dalam jalanMu dengan pertolongan hanya diriMu.</p>
                 <p class="om">Om dimulyakanlah Engkau ya Tuhan</p>
                 <span class="doa"><i class="fa-solid fa-book"></i> Do'a</span>
@@ -223,13 +229,14 @@
             </div>
 
            <!-- tamu started -->
-            <div class="tamu" id="komentar">
+            <div class="tamu" id="komentar"  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
                 <h1>Katakan Sesuatu</h1>
                 <div class="underline">
                     <img src="../image/underline.png">
                 </div>
                 <p>Konfirmasi kehadiran anda dengan mengisi detail pada form dibawah ini</p>
                 <div class="komentar">
+
                     <form method="POST" action="" id="myForm" class="formuser" autocomplete="off">
                     <label for="nama">Nama Tamu</label>
                     <input type="text" name="nama" placeholder="Nama Tamu Wajib Diisi" id="nama" required>
@@ -261,13 +268,12 @@
            <!-- tamu finished -->
        </div>
       
-       <div class="result">
-       
+       <div class="result"  data-aos="fade-down" data-aos-offset="200"  data-aos-delay="50" data-aos-duration="2000"  data-aos-easing="ease-in-out"  data-aos-mirror="true">
        </div>
 
        <div class="thanks">
         <p>Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a restu kepada kami. Atas kehadiran dan do'a restu Bapak/Ibu/Saudara/i kami ucapkan terima kasih. Kami Yang Berbahagia</p>
-        <h1>Keluarga Pande</h1>
+        <h1>Griya Sukunan</h1>
         <div class="underline">
             <img src="../image/underline.png">
         </div>
@@ -280,13 +286,13 @@
                 <p>Follow Us</p>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-icon">
                     <a href="https://api.whatsapp.com/send?phone=085158449402"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-                <div class="col">
-                    <a href="https://instagram.com/suryadwipayanaa?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                <div class="col-icon">
+                    <a href="https://www.instagram.com/wahhdeee/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                <div class="col">
+                <div class="col-icon">
                     <a href="https://www.facebook.com/surya.dwipayana.758"><i class="fa-brands fa-facebook-f"></i></a>
                 </div>
             </div>
@@ -319,12 +325,25 @@
 
 // insert realtime started
     let form = document.getElementById('myForm');
+
+
+
     function handleForm(e){
         e.preventDefault()
     }
     form.addEventListener('submit', handleForm);
 
     $('#submit').click(function(){
+        var nama = $('#nama').val();
+    var pilih = $("#pilih").val();
+    var jumlahTamu = $("#jumlahTamu").val();
+    var deskripsi = $("#deskripsi").val();
+    if(nama ===""){
+        swal('Isi terlebih dahulu')
+    }else if(deskripsi === ""){
+        swal('Isi terlebih dahulu')
+    }
+    else{
         $.ajax({
                 url : 'master.php',
                 type : 'POST',
@@ -338,8 +357,15 @@
                     swal("Good job!", "Komentar Ditambahkan", "success");
                 }
     })
+}
+
 })
 // insert realtime finsihed
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </body>
